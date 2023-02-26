@@ -55,6 +55,10 @@
     padding: 0 5px;
 }
 
+.service .serv-content .card .box p {
+    letter-spacing: 1px
+}
+
 .service .serv-content .card .box .roll {
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
