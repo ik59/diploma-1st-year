@@ -18,6 +18,10 @@
     text-align: justify;
 }
 
+.container h3 {
+    padding: 0 0 0 10px;
+}
+
 .container p {
     padding: 02px 10px;
     font-size: 16px;
