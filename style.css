@@ -11,7 +11,7 @@
     margin: auto auto;
    }
 
-.container .heading {
+.container .header .heading {
     background-color: black;
     text-align: center;
     padding: 10px;
@@ -21,7 +21,7 @@
     color: #ff4e4e;
 }
 
-.container small {
+.container .header small {
     color: rgb(26, 255, 0);
     padding: 5px;
     font-weight: bold;
@@ -33,19 +33,19 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.container h2 {
+.container .header h2 {
     padding: 02px 10px;
     font-size: 20px;
     font-weight: bold;
     text-align: justify;
 }
 
-.container h3 {
+.container .header h3 {
     padding: 0 0 0 10px;
     font-family: 'Roboto', sans-serif;
 }
 
-.container p {
+.container .header p {
     padding: 02px 10px;
     font-size: 16px;
     font-weight: 700;
@@ -70,7 +70,6 @@
     cursor: pointer;
     margin-bottom: 50px;
     border-radius: 7px;
-    line-height: 20px;
 }
 
 .service .serv-content .card .box {
@@ -78,7 +77,9 @@
 }
 
 .service .serv-content .card .box p {
-    letter-spacing: 1px
+    letter-spacing: 1px;
+    line-height : 30px
+
 }
 
 .service .serv-content .card .box .roll {
@@ -91,6 +92,10 @@
     text-align: center;
 }
 
+.service .serv-content .card .box .name {
+    color: wheat;
+}
+
 .service .serv-content .card .box .student-id span {
     background-color: rgb(255, 141, 0, 1);
     color: black;
@@ -99,16 +104,13 @@
     border-radius: 20px
 }
 
-.service .serv-content .card .box .batch {
-    margin-top: 5px;
+.service .serv-content .card .box .batch, .blood-group {
+    margin-top: -5px;
 }
 
 .service .serv-content .card .box .blood-group span {
-    color: red;
-} 
-
-.service .serv-content .card .box .blood-group {
-    margin-top: 5px;
+    color: crimson;
+    font-weight: 600;
 }
 
 
